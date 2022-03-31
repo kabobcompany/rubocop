@@ -35,3 +35,9 @@ Rails/SkipsModelValidations:
   Enabled: false
 RSpec/MultipleMemoizedHelpers:
   Enabled: false
+Rails/UnknownEnv:
+  Environments:
+    - production
+    - staging
+    - development
+    - test
