@@ -1,0 +1,44 @@
+require:
+  - rubocop-rails
+  - rubocop-performance
+  - rubocop-rspec
+AllCops:
+  TargetRubyVersion: 2.7
+  NewCops: enable
+Layout/LineLength:
+  Max: 120
+Style/Documentation:
+  Enabled: false
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+Style/RescueModifier:
+  Enabled: false
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+Layout/ArrayAlignment:
+  EnforcedStyle: with_fixed_indentation
+Layout/ParameterAlignment:
+  EnforcedStyle: with_fixed_indentation
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
+Rails/TimeZone:
+  Enabled: false
+Rails/SkipsModelValidations:
+  Enabled: false
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+Rails/UnknownEnv:
+  Environments:
+    - production
+    - staging
+    - development
+    - test
+
