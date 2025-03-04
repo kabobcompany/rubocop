@@ -1,4 +1,4 @@
-require:
+plugins:
   - rubocop-rails
   - rubocop-performance
   - rubocop-rspec
@@ -7,6 +7,8 @@ AllCops:
   NewCops: enable
 Layout/LineLength:
   Max: 120
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
 Style/Documentation:
   Enabled: false
 Style/NumericPredicate:
@@ -41,4 +43,3 @@ Rails/UnknownEnv:
     - staging
     - development
     - test
-
