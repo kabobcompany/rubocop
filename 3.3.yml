@@ -39,6 +39,10 @@ Rails/SkipsModelValidations:
   Enabled: false
 RSpec/MultipleMemoizedHelpers:
   Enabled: false
+RSpec/AnyInstance:
+  Enabled: false
+RSpec/IndexedLet:
+  Enabled: false
 Rails/UnknownEnv:
   Environments:
     - production
