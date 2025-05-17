@@ -51,3 +51,13 @@ Rails/UnknownEnv:
     - test
 RSpecRails/InferredSpecType:
   Inferences:
+Metrics/BlockLength:
+  Exclude:
+    - config/**/*.rb
+    - db/migrate/*.rb
+Metrics/MethodLength:
+  Exclude:
+    - db/migrate/*.rb
+Metrics/AbcSize:
+  Exclude:
+    - db/migrate/*.rb
