@@ -61,3 +61,5 @@ Metrics/MethodLength:
 Metrics/AbcSize:
   Exclude:
     - db/migrate/*.rb
+Naming/PredicateMethod:
+  Enabled: false
